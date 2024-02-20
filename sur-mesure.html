@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBPC.FR : L'informatique sur mesure !</title>
+    <link rel="shortcut icon" href="medias/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/0cc17e4337.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+
+<!--MENU DEBUT-->
+<header>
+    <div class="logo">
+        <a href="index.html"><img src="medias/logo_rbpc.png" alt=""></a>
+    </div>
+    <nav>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a  href="montage-pc.html">Montage PC</a></li>
+            <li><a class="ici" href="sur-mesure.html">Pc sur mesure</a></li>
+            <li><a href="categories.html">Catégories PC</a></li>
+            <li><a href="ordinateurs.html">Ordinateurs PC</a></li>
+        </ul> 
+    </nav>
+
+    <div class="icons">
+            <a href="montage-pc.html"><i class="fa-solid fa-screwdriver-wrench" id="i-montage"></i></a>
+            <a href="tel:+33761535842"><i class="fa-sharp fa-solid fa-phone" id="tel" ></i></a>
+            <a target="_blank" href="https://goo.gl/maps/CY2kd35wB6ZYNVE87"><i class="fa-solid fa-location-dot" id="localisation" ></i></a>
+        </div>
+
+</header>
+<!--MENU FIN-->
+
+<div class="espace"></div>
+
+<!--BANNER DEBUT-->
+<section id="banner" class="banner">  
+</section>
+ <!--BANNER FIN-->
+
+
+<!--!--A PROPOS DEBUT-->
+<!--<section class="a-propos" id="a-propos">
+    <div class="box-container">
+        <div class="box">
+            <img src="medias/sur-mesure.png" alt="">
+            <h3>Sur Mesure</h3>
+            <p class ="i">Notre service de PC sur mesure chez RBPC est conçu pour les personnes qui cherchent à construire leur propre ordinateur adapté à leurs besoins spécifiques. Nous offrons une large sélection de composants de haute qualité pour vous permettre de construire un PC qui répond parfaitement à vos besoins en matière de performance, de stockage, de refroidissement, etc.
+                <br>
+                <br>
+                Notre équipe de professionnels expérimentés peut vous guider tout au long du processus de construction, de la sélection des composants à la mise en place de votre système.
+                <br>
+                <br>
+                Nous nous occupons également de l'installation de Windows, des drivers, de l'activation de l'XMP et de tests de performance pour vous garantir un ordinateur qui répond parfaitement à vos besoins. Nous testons soigneusement chaque PC avant de vous le remettre. Le délai de livraison est de 3 jours ouvrés après confirmation de votre commande.
+                <br>
+                <br>
+                Rendez-vous sur notre site web rbpc.fr pour remplir notre formulaire de demande, une fois votre demande confirmée, nous construisons un ordinateur qui correspond 100% à vos besoins. Nous sommes également disponibles pour répondre à toutes vos questions et pour vous offrir un support après-vente.
+                
+                
+                
+                </p>
+            <a href="#sur-mesure" class="btn">Faire ma demande</a>
+        </div>
+</section>-->
+<!--A PROPOS FIN-->
+
+ <!--SUR MESURE DEBUT-->
+ <section class="montage-pc" id="sur-mesure">
+    <div class="montage-pc">
+        
+
+            <form action="send_email2.php" method="POST">
+            <div class="container1">
+                <h2>Coordonnées</h2>
+                <div class="box">
+                  <input type="nom" name="nom" placeholder="Nom">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="box">
+                  <input type="email" name="email" placeholder="e-mail">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="box">
+                    <input type="phone" name="numero" placeholder="Numéro de téléphone">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="box">
+                    <input type="adresse" name="adresse" placeholder="Adresse Postale">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+              </div>
+
+            <div class="container1">
+                <h2>Questions</h2>
+                <div class="box">
+                  <input type="budget" name="budget" placeholder="Quel est votre budget ?">
+                  <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="utlisation" name="utilisation" placeholder="Quelle est l'utilisation du PC ?">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="preferences" name="preferences" placeholder="Critères esthétiques (RGB, préférences couleurs / boitier, grand petit etc...)">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="internet" name="internet" placeholder="Moyen de connexion à Internet ">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="ecran" name="peripheriques" placeholder="Périphériques supplémentaires que vous voulez COMMANDER ">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="ecran" name="composants" placeholder="Composants déjà en votre possession ">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="ecran" name="jeux" placeholder="Jeux joués">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="ecran" name="logiciels" placeholder="Logiciels utilisés ">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="ecran" name="pays" placeholder="Pays de résidence ">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="ecran" name="pour-qui" placeholder="Pour vous ou pour quelqu'un d'autre">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="ecran" name="paiement" placeholder="Si paiement en plusieurs fois, précisez le">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="ecran" name="exemple" placeholder="Joindre une image en exemple">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+                <div class="box">
+                    <input type="ecran" name="preciser" placeholder="Chose à préciser ?">
+                    <i class="fa-solid fa-circle-question"></i>
+                </div>
+              </div>
+              
+            
+
+            
+
+              
+         
+
+          
+          <div class="button-area">
+            <button type="submit"> Envoyer !</button>
+            <span></span>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--SUR MESURE FIN-->
+
+    
+    <!-- REALISATIONS DEBUT -->
+    <section class="rea">
+      <h1 class="titre-infos"> <span> <i class="fa-solid fa-camera"></i> Réalisations </span> </h1>
+      <div class="box-container">
+          <div class="box">
+              <img src="medias/montages/montage_08.png" alt="">
+              <h4>Corsair 5000D Airflow</h4>
+              <p>janvier 2023</p>
+          </div>
+          <div class="box">
+              <img src="medias/montages/montage_07.png" alt="">
+              <h4>Xigmatek Aquarius</h4>
+              <p>janvier 2023</p>
+          </div>
+          <div class="box">
+              <img src="medias/montages/montage_06.png" alt="">
+              <h4>Corsair ICUE 465X</h4>
+              <p>janvier 2023</p>
+          </div>
+          <div class="box">
+              <img src="medias/montages/montage_05.png" alt="">
+              <h4>Deepcool CC560</h4>
+              <p>décembre 2022</p>
+          </div>
+          <div class="box">
+              <img src="medias/montages/montage_04.Png" alt="">
+              <h4>Lian-Li PC-O11 Dynamic</h4>
+              <p>décembre 2022</p>
+          </div>
+          <div class="box">
+              <img src="medias/montages/montage_03.Png" alt="">
+              <h4>Nfortec Krater </h4>
+              <p>décembre 2022</p>
+          </div>
+          <div class="box">
+              <img src="medias/montages/montage_02.Png" alt="">
+              <h4>Cooler Master HAF500</h4>
+              <p>décembre 2022</p>
+          </div>
+          <div class="box">
+              <img src="medias/montages/montage_01.png" alt="">
+              <h4>Corsair 4000D Airflow</h4>
+              <p>novembre 2022</p>
+          </div>
+      </div>
+  </section>
+  <!-- REALISATIONS FIN -->
+
+<!--BAS DE PAGE DEBUT-->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3> RBPC </h3>
+            <p>L'informatique sur mesure !</p>
+            <div class="share">
+                <a target="_blank"   href="https://tiktok.com/@rbpcfr" class="fab fa-tiktok"></a>
+                <a target="_blank" href="https://twitter.com/rbpcfr" class="fab fa-twitter"></a>
+                <a target="_blank" href="https://instagram.com/rbpcfr" class="fab fa-instagram"></a>
+                <a target="_blank" href="https://youtube.com/@rbpcfr" class="fab fa-youtube"></a>
+                <a target="_blank" href="https://linkedin.com/rbpcfr" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Nous contacter</h3>
+            <a href="tel:+33761535842" class="links"> <i class="fas fa-phone"></i> 06 09 22 81 90 </a>
+            <a href="mailto:contact.rbpc.fr" class="links"> <i class="fas fa-envelope"></i> contact@rbpc.fr </a>
+            <a target="_blank" href="https://goo.gl/maps/CY2kd35wB6ZYNVE87" class="links"> <i class="fas fa-map-marker-alt"></i> Île-de-France </a>
+        </div>
+        <div class="box">
+            <h3>Liens rapides</h3>
+            <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i> Accueil </a>
+            <a href="montage-pc.html" class="links"> <i class="fas fa-arrow-right"></i> Montage PC</a>
+            <a href="sur-mesure.html" class="links"> <i class="fas fa-arrow-right"></i> Sur Mesure </a>
+            <a href="categories.html" class="links"> <i class="fas fa-arrow-right"></i> Catégories PC </a>
+            <a href="ordinateurs.html" class="links"> <i class="fas fa-arrow-right"></i> Ordinateurs </a>
+        </div>
+        <!--<div class="box">
+            <h3>Newsletter</h3>
+            <p>Abonnez-vous pour suivre les dernières mises à jour !</p>
+            <input type="email" placeholder="email" class="email">
+            <input type="submit" value="S'abonner" class="btn">
+        </div>-->
+        <div class="box">
+            <h3>Moyens de paiement</h3>
+            <img src="medias/payment.png" alt="">
+        </div>
+    </div>
+    <div class="credit">© 2023 Tous droits réservés RBPC</div>
+</section>
+<!--BAS DE PAGE FIN-->
